@@ -2,6 +2,9 @@ n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 
 data.sort()
+
+print(data.sort())
+
 first = data[n-1]
 second = data[n-2]
 
@@ -12,7 +15,9 @@ while True:
         if m == 0:
             break
         result += first
+        print('result : ', result)
         m -= 1
+        print('m : ', m)
     if m ==0:
         break
     result += second
