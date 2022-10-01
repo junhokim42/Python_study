@@ -1,0 +1,31 @@
+{% extends 'basesimple.html' %}
+
+{% block mycss %}
+  img {
+    width : 200px;
+    height : 200px;
+  }
+{% endblock %}
+{% block mycontent %}
+    <h1>인터페이스 개발 팀 프로젝트</h1>
+    <hr>
+    {% if memberlist %}
+        <h2>우리팀의 팀원을 소개합니다</h2>
+            <ul>
+                {% for member in memberlist %}
+                <li>{{member}}</li>
+                {% endfor %}
+            </ul>
+        {% load static %}
+        <img src = "{% static 'images/olaf1.png' %}">
+    {% elif number %}
+        <h2>우리팀 인원은 {{number}}명입니다</h2>
+        {% load static %}
+        <img src = "{% static 'images/olaf2.png' %}">
+    {% else %}
+        <h2>{{result}}</h2>
+        {% load static %}
+        <img src = "{% static 'images/olaf3.png' %}">
+    {% endif %}
+
+{% endblock %}

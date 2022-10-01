@@ -1,0 +1,25 @@
+{% extends 'basesimple.html' %}
+
+{% block mycss %}
+  img {
+    width : 200px;
+    height : 200px;
+  }
+{% endblock %}
+{% block mycontent %}
+    {% if info %}
+        <h1>{{info.name}}님이 남긴 글입니다</h1><hr>
+        <h2>{{info.opinion}} </h2>
+    {% else %}
+        <h1>글 작성하기</h1>
+        <hr>
+        <form method="post" action="http://localhost:8000/workapp/exercise3/">
+            {% csrf_token %}
+            <textarea placeholder="작성자 이름을 입력하세요" name="name" rows="1" cols="20"></textarea><br><br>
+            <textarea placeholder="자신의 의견을 간단히 작성하세요" name="opinion" rows="15" cols="40"></textarea>
+            <br>
+            <input type="submit" value="제출">
+            <input type="reset" value="재작성">
+        </form>
+    {% endif %}
+{% endblock %}
