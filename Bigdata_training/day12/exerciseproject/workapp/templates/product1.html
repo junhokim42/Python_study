@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>원하는 상품을 클릭하세요</h1>
+    <hr>
+    <div style="display: flex; flex-wrap: wrap">
+        {% for i in cards %}
+            <div class="card" style="width:200px; box-shadow: 10px 5px 5px #DDD; margin: 10px; fadding: 20px">
+                <a href = '/workapp/basket1/?name={{i}}'>
+                    <img class="card-img-top" src="/static/images/{{i}}.jpg" alt="Card image">
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

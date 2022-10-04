@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 from time import localtime
+from datetime import datetime
 
 # Create your views here.
 def exercise1(request):
@@ -46,3 +47,22 @@ def exercise3(request):
             }
         }
     return render(request, 'exercise3.html', context)
+
+def product1(request):
+    cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    
+    context = {
+        'cards': cards,
+    }
+    return render(request, 'product1.html', context)
+
+def basket1(request):
+    name = request.GET.get('name')
+    cards = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+    if name in cards:
+        card_num = name
+
+    context = {
+        'card_num': card_num,
+    }
+    return render(request, 'basket1.html', context)

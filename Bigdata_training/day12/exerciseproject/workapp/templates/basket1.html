@@ -1,0 +1,17 @@
+{% extends 'basesimple.html' %}
+
+{% block mycontent %}
+
+<p>요청시간 : {% now "Y년 M d일 A H시 i분 s초 (l) " %}</p>
+
+{% load static %}
+<p>선택된 사진 :</p>
+<div class="card" style="width:200px">
+    <a href = '/workapp/basket1/?name={{card_num}}'>
+        <img class="card-img-top" src="/static/images/{{card_num}}.jpg" alt="Card image" style="width:100%">
+    </a>
+</div>
+<a href = '/workapp/product1/'>
+    <p>상품 선택 화면으로</p>
+</a>
+{% endblock %}
