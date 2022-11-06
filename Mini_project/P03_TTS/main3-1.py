@@ -3,7 +3,7 @@ from gtts import gTTS
 # text = '안녕하세요. 파이썬과 40개의 작품들 입니다.'
 
 # tts = gTTS(text=text, lang='ko')
-# tts.save(r"P3_TTS\hi.mp3")
+# tts.save(r"P03_TTS\hi.mp3")
 
 
 text2 = '''북한이 극도로 민감하게 반응한 한미 연합공중훈련 비질런트 스톰이 5일 마무리된다.
