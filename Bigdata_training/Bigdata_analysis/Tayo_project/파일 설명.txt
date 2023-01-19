@@ -1,0 +1,5 @@
+bobaedream.R : 차량 이미지 크롤링
+carnum_one.ipynb : 기존 모듈로 번호판 텍스트화. VSC환경에서 작성함.
+carnum.ipynb : 기존 모듈 경로 문제로 사용 x
+parking.ipynb : CCTV - 주차장 지도 시각화
+seoul_analysis.ipynb : 주차 현황 bar그래프 시각화

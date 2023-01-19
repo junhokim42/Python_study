@@ -1,0 +1,35 @@
+서울시 거주자우선주차정보
+http://data.seoul.go.kr/dataList/OA-20440/S/1/datasetView.do
+서울시 불법주정차 단속 cctv위치정보
+https://data.seoul.go.kr/dataList/OA-20471/S/1/datasetView.do
+공영주차장안내정보
+http://data.seoul.go.kr/dataList/OA-13122/S/1/datasetView.do
+서울시 주차장 동별 통계(2016~2021)
+https://data.seoul.go.kr/dataList/10152/S/2/datasetView.do
+서울시 주차장 구별 통계(2016~2021)
+https://data.seoul.go.kr/dataList/253/S/2/datasetView.do
+서울시 주차장 확보율 통계
+https://data.seoul.go.kr/dataList/10357/S/2/datasetView.do
+강남구 거주자우선주차정보
+http://data.seoul.go.kr/dataList/OA-15006/S/1/datasetView.do
+자동차 등록대수&주민등록 인구
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL20731
+우리나라 출근통행특성
+https://www.ktdb.go.kr/www/selectBbsNttView.do?key=42&bbsNo=7&nttNo=2897
+성별/연령별/이용 교통 수단별 통근 통학 인구(12세 이상)-시군구
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PA1503&conn_path=I2
+현 거주지별/성별/통근통학지별 통근통학 인구(서울, 인천, 경기)(12세 이상)-시군구
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PA1503&conn_path=I2
+자동차 보유현황
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PH1028&conn_path=I2
+자동차등록대수현황_연도별(2017~2022)
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PH1028&conn_path=I2
+자동차등록대수현황 시도별(2017~2022) -> 아직 다운x
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PH1028&conn_path=I2
+강서구 거주자우선주차장 부정주차 단속현황 
+-> 추천파일(강서구시설관리공단_공영주차장_현황, 강서구시설관리공단_거주자우선주차_구획 정보)
+https://www.data.go.kr/data/15089284/fileData.do
+거주자 우선주차 사고 시 구청장, 관리수탁자 책임 없음
+https://www.bpss.or.kr:444/open_content/main/bbs/bbsMsgDetail.do?msg_seq=19&bcd=faqfirst
+서울시 특정구 불법주정차(IOT) 정보
+https://data.seoul.go.kr/dataList/datasetTotalList.do
